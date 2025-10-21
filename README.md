@@ -1,57 +1,30 @@
-Proyecto: Análisis Interactivo de Vehículos Usados
+P🚗 Proyecto: Análisis Interactivo de Vehículos Usados
+🧠 Descripción
 
-Descripción
+Esta aplicación web, desarrollada con Streamlit, permite explorar y analizar un conjunto de datos de anuncios de venta de vehículos usados en EE. UU.
+Ofrece herramientas interactivas para visualizar la información de manera intuitiva y obtener insights clave sobre las características y precios de los vehículos.
 
-Esta aplicación web, desarrollada con Streamlit, permite explorar y analizar un conjunto de datos de anuncios de venta de vehículos usados en EE.UU. Proporciona herramientas interactivas para visualizar los datos de manera intuitiva y obtener insights clave sobre las características de los vehículos en venta.
+⚙️ Funcionalidades
+🔹 Visualización Interactiva
 
-Funcionalidades
+Histograma de la columna odometer, que permite analizar la distribución de las lecturas del odómetro (en millas).
 
-Visualización Interactiva:
+Gráfico de dispersión que relaciona el precio del vehículo con la lectura del odómetro.
 
- histograma de la columna "odometer" para analizar la distribución de las lecturas del odómetro en millas.
+🔹 Interactividad
 
-Generacion de gráfico de dispersión que relaciona el precio del vehículo con las lecturas del odómetro.
+Botones y controles dinámicos que permiten generar las visualizaciones en tiempo real.
 
-Interactividad:
+🔹 Gráficos Avanzados
 
-La aplicación incluye botones que permiten al usuario generar las visualizaciones de forma dinámica.
+Uso de Plotly Express para crear visualizaciones interactivas, dinámicas y personalizables.
 
-Gráficos Avanzados:
+🧰 Tecnologías Utilizadas
 
-Utiliza Plotly Express para generar gráficos interactivos y personalizables.
+Python 3.8+ — Lenguaje principal de programación.
 
-Tecnologías Utilizadas
+Streamlit — Framework para construir aplicaciones web interactivas.
 
-Python: Lenguaje principal de programación.
+Pandas — Manipulación y análisis de datos.
 
-Streamlit: Framework para construir aplicaciones web interactivas.
-
-Pandas: Biblioteca para la manipulación y análisis de datos.
-
-Plotly Express: Herramienta para la visualización de datos.
-
-Cómo Ejecutar la Aplicación
-
-Clona el repositorio en tu máquina local.
-
-Asegúrate de tener instalado Python 3.8 o superior.
-
-Instala las dependencias ejecutando:
-
-pip install -r requirements.txt
-
-Inicia la aplicación con:
-
-streamlit run app.py
-
-Abre la URL generada en tu navegador ( http://localhost:8501).
-
-Dataset
-
-El conjunto de datos utilizado es vehicles_us.csv, el cual contiene información sobre:
-
-Precio del vehículo.
-
-Lectura del odómetro.
-
-Otros detalles del anuncio.
+Plotly Express — Visualización de datos interactiva.
